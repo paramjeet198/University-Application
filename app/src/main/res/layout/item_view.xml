@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".WebsiteResponse"
+    tools:ignore="ExtraText">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#EDEDED"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <!--    android:layout_width="matchw_parent"-->
+            <!--    android:layout_height="wrap_content"-->
+            <!--    tools:context=".WebsiteResponse"-->
+            <!--    android:id="@+id/linearLayout"-->
+            <!--    android:orientation="vertical"-->
+            <!--    android:padding="16dp"-->
+
+
+            <!-- First EditText -->
+            <TextView
+                android:id="@+id/universityId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:hint="College Name"
+                android:textSize="12dp" />
+            <!-- Second EditText -->
+            <!-- Button -->
+
+            <TextView
+                android:id="@+id/countryId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:hint="Country" />
+
+            <Button
+                android:id="@+id/websiteButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website link" />
+            <!--            android:layout_alignParentBottom="true"-->
+            <!--            android:layout_marginStart="10dp"-->
+            <!--            android:layout_marginTop="10dp"-->
+            <!--            android:layout_marginEnd="10dp"-->
+            <!--            android:layout_marginBottom="532dp"-->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
